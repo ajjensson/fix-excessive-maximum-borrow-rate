@@ -1,3 +1,4 @@
 // As Borrowing rate 0.0005% per block and each block is 12 seconds in duration, to fix excessive maximum borrowing rate
 // we can take this 0.0005e16 and divide by the block time in seconds, i.e. 12
+
 borrowRateMaxMantissa = 0.0005e16/12
