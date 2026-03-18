@@ -1,0 +1,3 @@
+// If uint32 limits the potential date that the system would correctly operate, a simple fix would be to increase the variable to a 64-bit unsigned integer instead of the 32-bit.
+
+uint64 getBlockNumber()
